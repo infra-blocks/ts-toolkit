@@ -1,16 +1,14 @@
 {
-  "name": "@infra-blocks/lib-template",
+  "name": "@infra-blocks/toolkit",
   "version": "0.0.0",
-  "description": "This repository is a template to generate repositories meant to hold the source code of NPM packages written in TypeScript.",
+  "description": "Various low-level utilities that aim at maximizing code reuse.",
   "keywords": [
-    "template",
-    "typescript",
-    "esm",
-    "cjs"
+    "toolkit",
+    "utilities"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/infra-blocks/ts-lib-template.git"
+    "url": "https://github.com/infra-blocks/ts-toolkit.git"
   },
   "license": "ISC",
   "author": "",
