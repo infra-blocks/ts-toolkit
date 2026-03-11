@@ -1,8 +1,8 @@
-import { suite, test } from "node:test";
-import { assert } from "@infra-blocks/test";
+import { suite } from "node:test";
+import { conditionTests } from "./condition/index.js";
+import { predicateTests } from "./predicate/index.js";
 
 suite("suite", () => {
-  test("dummy", () => {
-    assert(true);
-  });
+  conditionTests();
+  predicateTests();
 });
