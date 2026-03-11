@@ -1,6 +1,6 @@
 {
   "name": "@infra-blocks/toolkit",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Various low-level utilities that aim at maximizing code reuse.",
   "keywords": [
     "toolkit",
