@@ -14,9 +14,16 @@
   "author": "",
   "type": "module",
   "exports": {
-    "import": "./lib/esm/index.js",
-    "require": "./lib/cjs/index.js",
-    "default": "./lib/esm/index.js"
+    ".": {
+      "import": "./lib/esm/index.js",
+      "require": "./lib/cjs/index.js",
+      "default": "./lib/esm/index.js"
+    },
+    "./typeof": {
+      "import": "./lib/esm/typeof/index.js",
+      "require": "./lib/cjs/typeof/index.js",
+      "default": "./lib/esm/typeof/index.js"
+    }
   },
   "main": "./lib/cjs/index.js",
   "files": [
