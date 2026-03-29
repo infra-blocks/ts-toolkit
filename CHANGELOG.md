@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2026-03-29
+
+### Added
+
+- The `rethrow` utility function that simply rethrows its provided input.
+
 ## [0.2.0] - 2026-03-23
 
 ### Added
@@ -39,5 +45,6 @@ value is **not** `undefined`. It's generally shorter than a ternary operator.
 - `ifNotNull`, the `null` equivalent of `ifDefined`.
 - `ifNotNil`, the `null | undefined` equivalent of `ifDefined`.
 
+[0.3.0]: https://github.com/infra-blocks/ts-toolkit/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/infra-blocks/ts-toolkit/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/infra-blocks/ts-toolkit/releases/tag/v0.1.0
